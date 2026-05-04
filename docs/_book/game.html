@@ -1,0 +1,696 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Игровая логика · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.1.6">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="levels.html" />
+    
+    
+    <link rel="prev" href="entities.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="about.html">
+            
+                <a href="about.html">
+            
+                    
+                    Описание игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Установка
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="requirements.html">
+            
+                <a href="requirements.html">
+            
+                    
+                    Системные требования
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="build.html">
+            
+                <a href="build.html">
+            
+                    
+                    Сборка проекта
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="run.html">
+            
+                <a href="run.html">
+            
+                    
+                    Запуск игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Архитектура
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="overview.html">
+            
+                <a href="overview.html">
+            
+                    
+                    Архитектура приложения
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="entities.html">
+            
+                <a href="entities.html">
+            
+                    
+                    Сущности игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="game_flow.html">
+            
+                <a href="game_flow.html">
+            
+                    
+                    Игровой цикл и архитектура потока
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="rendering.html">
+            
+                <a href="rendering.html">
+            
+                    
+                    Система рендеринга и UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Игровой процесс
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="controls.html">
+            
+                <a href="controls.html">
+            
+                    
+                    Управление
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="rules.html">
+            
+                <a href="rules.html">
+            
+                    
+                    Правила игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="scoring.html">
+            
+                <a href="scoring.html">
+            
+                    
+                    Система рекордов
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Код
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="entities.html">
+            
+                <a href="entities.html">
+            
+                    
+                    Сущности игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.2" data-path="game.html">
+            
+                <a href="game.html">
+            
+                    
+                    Игровая логика
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="levels.html">
+            
+                <a href="levels.html">
+            
+                    
+                    Система уровней
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Игровая логика</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="игровая-логика">Игровая логика</h1>
+<h2 id="основные-классы">Основные классы</h2>
+<h3 id="mainjava">Main.java</h3>
+<p><strong>Назначение</strong>: Точка входа в приложение.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> game;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Main</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        SwingUtilities.invokeLater(() -&gt; {
+            <span class="hljs-keyword">new</span> <span class="hljs-title class_">SokobanGame</span>().setVisible(<span class="hljs-literal">true</span>);
+        });
+    }
+}
+</code></pre>
+<p><strong>Ответственность</strong>:</p>
+<ul>
+<li>Запуск приложения в Event Dispatch Thread (EDT)</li>
+<li>Создание и отображение основного окна</li>
+</ul>
+<h3 id="sokobangamejava">SokobanGame.java</h3>
+<p><strong>Назначение</strong>: Основное окно игры</p>
+<p><strong>Наследование</strong>: <code>JFrame</code></p>
+<p><strong>Основные поля</strong>:</p>
+<ul>
+<li><code>GamePanel</code> - игровая панель</li>
+<li><code>GameContainer</code> - контейнер UI</li>
+<li><code>ScoreManager</code> - менеджер рекордов</li>
+<li><code>SpriteManager</code> - менеджер спрайтов</li>
+</ul>
+<p><strong>Основные методы</strong>:</p>
+<p><code>checkGameState()</code> - проаеряет условие победы и показывает окно с результатами</p>
+<pre><code class="lang-java"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">checkGameState</span><span class="hljs-params">()</span> {
+    <span class="hljs-keyword">if</span> (gamePanel.isGameWon()) {
+        <span class="hljs-type">long</span> <span class="hljs-variable">timeSeconds</span> <span class="hljs-operator">=</span> gamePanel.getElapsedTimeSeconds();
+        <span class="hljs-type">int</span> <span class="hljs-variable">moves</span> <span class="hljs-operator">=</span> gamePanel.getMoveCount();
+        <span class="hljs-type">int</span> <span class="hljs-variable">difficulty</span> <span class="hljs-operator">=</span> gamePanel.getCurrentDifficulty();
+
+        gameContainer.showVictoryWindow(timeSeconds, moves, difficulty);
+    }
+}
+</code></pre>
+<p><strong>Обработка клавиш</strong>:</p>
+<ul>
+<li><code>S</code> - показать таблицу рекордов</li>
+<li><code>Ctrl + R</code> - сгенерировать новый уровень</li>
+<li><code>R</code> - сбросить текущий уровень</li>
+<li><code>Z</code> - отменить ход</li>
+<li><code>Стрелки</code> - движение игрока</li>
+</ul>
+<h3 id="gamecontainerjava">GameContainer.java</h3>
+<p><strong>Назначение</strong>: контейнер для игры и UI элементов</p>
+<p><strong>Наследование</strong>: <code>JPanel</code></p>
+<p><strong>Основные поля</strong>:</p>
+<ul>
+<li><code>GamePanel</code> - ссылка на игровую панель</li>
+<li><code>UIManager</code> - управление UI окнами</li>
+<li><code>ScoreManager</code> - менеджер рекордов</li>
+<li><code>showScores</code> - флаг отображения таблицы рекордов</li>
+<li><code>showVictory</code> - флаг отображения окна победы</li>
+</ul>
+<p><strong>Основные методы</strong>:</p>
+<p><code>showScoresWindow()</code> - Показывает окно с таблицей рекордов:</p>
+<ul>
+<li>Останавливает игровой таймер</li>
+<li>Создает окно с кнопкой закрытия</li>
+<li>Отрисовывает топ-10 рекордов</li>
+</ul>
+<p><code>showVictoryWindow(long timeSeconds, int moves, int difficulty)</code> - Показывает окно победы:</p>
+<ul>
+<li>Сохраняет текущий рекорд</li>
+<li>Показывает статистику прохождения</li>
+<li>Предлагает кнопки "Новый уровень" и "Закрыть"</li>
+</ul>
+<p><code>paintComponent(Graphics g)</code> - Переопределенный метод отрисовки:</p>
+<ul>
+<li>Рисует игровую панель</li>
+<li>Если активно окно (рекорды/победа), рисует полупрозрачный оверлей</li>
+<li>Отрисовывает UI элементы</li>
+</ul>
+<h3 id="gamepaneljava">GamePanel.java</h3>
+<p><strong>Назначение</strong>: Основная игровая логика и отрисовка</p>
+<p><strong>Наследование</strong>: <code>JPanel</code></p>
+<p><strong>Константы</strong>:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-type">int</span> <span class="hljs-variable">TILE_SIZE</span> <span class="hljs-operator">=</span> <span class="hljs-number">64</span>;  <span class="hljs-comment">// Размер клетки</span>
+<span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-type">int</span> <span class="hljs-variable">ROWS</span> <span class="hljs-operator">=</span> <span class="hljs-number">10</span>;       <span class="hljs-comment">// Количество строк</span>
+<span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-type">int</span> <span class="hljs-variable">COLS</span> <span class="hljs-operator">=</span> <span class="hljs-number">10</span>;       <span class="hljs-comment">// Количество столбцов</span>
+</code></pre>
+<p><strong>Основные поля</strong>:</p>
+<ul>
+<li><code>TileType[][] grid</code> - двумерный массив уровня</li>
+<li><code>Player player</code> - объект игрока</li>
+<li><code>List&lt;GameBox&gt; boxes</code> - список ящиков</li>
+<li><code>List&lt;Point&gt; targets</code> - список целевых позиций</li>
+<li><code>Stack&lt;GameState&gt; history</code> - стек состояний для отмены</li>
+<li><code>SpriteManager sprites</code> - менеджер спрайтов</li>
+<li><code>long levelStartTime</code> - время начала уровня</li>
+<li><code>int moveCount</code> - счетчик ходов</li>
+</ul>
+<p><strong>Основные методы</strong>:</p>
+<p><code>initLevel()</code> - Инициализирует уровень:</p>
+<ul>
+<li>Создает сетку</li>
+<li>Загружает уровень из массива или генерирует</li>
+<li>Инициализирует игрока и ящики</li>
+<li>Запускает таймер</li>
+</ul>
+<p><code>movePlayer(int keyCode)</code> - Обрабатывает движение игрока:</p>
+<ul>
+<li>Определяет направление движения</li>
+<li>Проверяет, нет ли стены на пути</li>
+<li>Если на пути ящик - проверяет возможность его толкнуть</li>
+<li>Сохраняет текущее состояние в стек</li>
+<li>Перемещает игрока (и ящик, если нужно)</li>
+<li>Увеличивает счетчик ходов</li>
+</ul>
+<p><code>saveState()</code> - Сохраняет текущее состояние игры в стек:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">saveState</span><span class="hljs-params">()</span> {
+    history.push(<span class="hljs-keyword">new</span> <span class="hljs-title class_">GameState</span>(player.getX(), player.getY(),
+                                lastDx, lastDy, boxes));
+    <span class="hljs-keyword">if</span> (history.size() &gt; <span class="hljs-number">50</span>) {
+        history.remove(<span class="hljs-number">0</span>);  <span class="hljs-comment">// Ограничение размера стека</span>
+    }
+}
+</code></pre>
+<p><code>undo()</code> - Отменяет последний ход:</p>
+<ul>
+<li>Извлекает предыдущее состояние из стека</li>
+<li>Восстанавливает позицию игрока и ящиков</li>
+</ul>
+<p><code>isGameWon()</code> - Проверяет условие победы:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">isGameWon</span><span class="hljs-params">()</span> {
+    <span class="hljs-keyword">for</span> (GameBox box : boxes) {
+        <span class="hljs-keyword">if</span> (!box.onTarget) {
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+}
+</code></pre>
+<p><code>generateNewLevel(int numBoxes)</code> - Генерирует новый уровень:</p>
+<ul>
+<li>Создает LevelGenerator с указанным количеством ящиков</li>
+<li>Загружает сгенерированный уровень</li>
+<li>Сбрасывает статистику</li>
+</ul>
+<p><code>paintComponent(Graphics g)</code> - Отрисовывает игровое поле:</p>
+<ul>
+<li>Рисует фон (пол)</li>
+<li>Рисует стены и цели</li>
+<li>Рисует ящики (с выделением если на цели)</li>
+<li>Рисует игрока</li>
+</ul>
+<h3 id="взаимодействие-классов">Взаимодействие классов</h3>
+<p>SokobanGame</p>
+<p>↓ создает</p>
+<p>GameContainer</p>
+<p>↓ содержит</p>
+<p>GamePanel</p>
+<p>↓ использует</p>
+<ul>
+<li>Player (сущность)</li>
+<li>GameBox (сущность)</li>
+<li>GameState (сущность)</li>
+<li>SpriteManager (графика)</li>
+<li>LevelGenerator (уровни)</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="entities.html" class="navigation navigation-prev " aria-label="Previous page: Сущности игры">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="levels.html" class="navigation navigation-next " aria-label="Next page: Система уровней">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Игровая логика","level":"1.6.2","depth":2,"next":{"title":"Система уровней","level":"1.6.3","depth":2,"path":"levels.md","ref":"levels.md","articles":[]},"previous":{"title":"Сущности игры","level":"1.6.1","depth":2,"path":"entities.md","ref":"entities.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"game.md","mtime":"2026-05-04T20:49:41.472Z","type":"markdown"},"gitbook":{"version":"6.1.6","time":"2026-05-04T20:51:11.153Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

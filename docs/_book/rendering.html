@@ -1,0 +1,730 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Система рендеринга и UI · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.1.6">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="game_flow.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="about.html">
+            
+                <a href="about.html">
+            
+                    
+                    Описание игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Установка
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="requirements.html">
+            
+                <a href="requirements.html">
+            
+                    
+                    Системные требования
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="build.html">
+            
+                <a href="build.html">
+            
+                    
+                    Сборка проекта
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="run.html">
+            
+                <a href="run.html">
+            
+                    
+                    Запуск игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Архитектура
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="overview.html">
+            
+                <a href="overview.html">
+            
+                    
+                    Архитектура приложения
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="entities.html">
+            
+                <a href="entities.html">
+            
+                    
+                    Сущности игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="game_flow.html">
+            
+                <a href="game_flow.html">
+            
+                    
+                    Игровой цикл и архитектура потока
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.4" data-path="rendering.html">
+            
+                <a href="rendering.html">
+            
+                    
+                    Система рендеринга и UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Игровой процесс
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="controls.html">
+            
+                <a href="controls.html">
+            
+                    
+                    Управление
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="rules.html">
+            
+                <a href="rules.html">
+            
+                    
+                    Правила игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="scoring.html">
+            
+                <a href="scoring.html">
+            
+                    
+                    Система рекордов
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Код
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="entities.html">
+            
+                <a href="entities.html">
+            
+                    
+                    Сущности игры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="game.html">
+            
+                <a href="game.html">
+            
+                    
+                    Игровая логика
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="levels.html">
+            
+                <a href="levels.html">
+            
+                    
+                    Система уровней
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Система рендеринга и UI</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="система-рендеринга-и-ui">Система рендеринга и UI</h1>
+<h3 id="архитектура-отрисовки">Архитектура отрисовки</h3>
+<p>Игра использует двухуровневую систему отрисовки:</p>
+<ol>
+<li><strong>Игровое поле</strong> - спрайты объектов игры</li>
+<li><strong>UI слой</strong> - окна, кнопки, таблицы рекордов</li>
+</ol>
+<h3 id="загружаемые-спрайты">Загружаемые спрайты</h3>
+<h4 id="игрок-4-направления">Игрок (4 направления):</h4>
+<ul>
+<li><code>player1.png</code> - смотрит вниз (вперед)</li>
+<li><code>player2.png</code> - смотрит вверх (назад)</li>
+<li><code>player3.png</code> - смотрит вправо</li>
+<li><code>player4.png</code> - смотрит влево</li>
+</ul>
+<h4 id="окружение">Окружение:</h4>
+<ul>
+<li><code>wall.png</code> - стена</li>
+<li><code>box.png</code> - ящик</li>
+<li><code>box_ontarget.png</code> - ящик на цели (опционально)</li>
+<li><code>target.png</code> - целевая позиция</li>
+<li><code>floor.png</code> - пол</li>
+</ul>
+<h3 id="основные-методы">Основные методы</h3>
+<h4 id="loadimagestring-path"><code>loadImage(String path)</code></h4>
+<p>Загружает изображение из ресурсов:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> BufferedImage <span class="hljs-title function_">loadImage</span><span class="hljs-params">(String path)</span> <span class="hljs-keyword">throws</span> IOException {
+    <span class="hljs-type">URL</span> <span class="hljs-variable">resource</span> <span class="hljs-operator">=</span> getClass().getClassLoader().getResource(path);
+    <span class="hljs-keyword">if</span> (resource == <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IOException</span>(<span class="hljs-string">"Ресурс не найден: "</span> + path);
+    }
+    <span class="hljs-keyword">return</span> ImageIO.read(resource);
+}
+</code></pre>
+<h4 id="setplayerdirectionint-dx-int-dy"><code>setPlayerDirection(int dx, int dy)</code></h4>
+<p>Выбирает правильный спрайт игрока в зависимости от направления:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">if</span> (dy == -<span class="hljs-number">1</span>) { <span class="hljs-comment">// вверх</span>
+    currentPlayerSprite = playerBack;
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (dy == <span class="hljs-number">1</span>) { <span class="hljs-comment">// вниз</span>
+    currentPlayerSprite = playerForward;
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (dx == -<span class="hljs-number">1</span>) { <span class="hljs-comment">// влево</span>
+    currentPlayerSprite = playerLeft;
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (dx == <span class="hljs-number">1</span>) { <span class="hljs-comment">// вправо</span>
+    currentPlayerSprite = playerRight;
+}
+</code></pre>
+<p><strong>Особенности:</strong></p>
+<ul>
+<li><p>Singleton - подобный паттерн (один экземпляр на всю игру)</p>
+</li>
+<li><p>Загрузка происходит один раз в конструкторе</p>
+</li>
+<li><p>Fallback на null если спрайт не найден</p>
+</li>
+</ul>
+<h2 id="uimanager-менеджер-ui">UIManager (Менеджер UI)</h2>
+<p><strong>Файл:</strong> <code>ui/UIManager.java</code></p>
+<p>Управляет окнами интерфейса и их отрисовкой</p>
+<p><strong>Поля:</strong></p>
+<ul>
+<li><p><code>List&lt;UIWindow&gt; windows</code> - список активных окон</p>
+</li>
+<li><p><code>BufferedImage windowSprite</code> - спрайт фона окна</p>
+</li>
+<li><p><code>BufferedImage crossSprite</code> - спрайт крестика закрытия</p>
+</li>
+<li><p><code>BufferedImage buttonSprite</code> - спрайт кнопки</p>
+</li>
+</ul>
+<p><strong>Основные методы:</strong></p>
+<h4 id="createwindowint-x-y"><code>createWindow(int x, y)</code></h4>
+<p>Создает новое окно и добавляет его в список:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> UIWindow <span class="hljs-title function_">createWindow</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y)</span> {
+    <span class="hljs-type">UIWindow</span> <span class="hljs-variable">window</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">UIWindow</span>(x, y, windowSprite, crossSprite);
+    windows.add(window);
+    <span class="hljs-keyword">return</span> window;
+}
+</code></pre>
+<h4 id="handlemouseclickint-px-int-py"><code>handleMouseClick(int px, int py)</code></h4>
+<p>Обрабатывает клик мыши, передавая его верхнему окну:</p>
+<pre><code class="lang-java"><span class="hljs-comment">// Обрабатываем окна в обратном порядке (сверху вниз)</span>
+<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> <span class="hljs-variable">i</span> <span class="hljs-operator">=</span> windows.size() - <span class="hljs-number">1</span>; i &gt;= <span class="hljs-number">0</span>; i--) {
+    <span class="hljs-type">UIWindow</span> <span class="hljs-variable">window</span> <span class="hljs-operator">=</span> windows.get(i);
+    <span class="hljs-keyword">if</span> (window.contains(px, py)) {
+        window.handleMouseClick(px, py);
+        <span class="hljs-keyword">break</span>;
+    }
+}
+</code></pre>
+<h2 id="uiwindow-окно-интерфейса">UIWindow (Окно интерфейса)</h2>
+<p><strong>Файл:</strong> <code>ui/UIWindow.java</code></p>
+<p>Класс, представляющий модальное окно UI</p>
+<p><strong>Параметры:</strong></p>
+<ul>
+<li><p><code>width = 540</code> - ширина окна</p>
+</li>
+<li><p><code>height = 600</code> - высота окна</p>
+</li>
+<li><p><code>TITLE_HEIGHT = 50</code> - высота заголовка</p>
+</li>
+<li><p><code>CROSS_SIZE = 32</code> - размер крестика</p>
+</li>
+<li><p><code>BUTTON_WIDTH = 128</code> - ширина кнопки</p>
+</li>
+<li><p><code>PADDING = 10</code> - отступы</p>
+</li>
+</ul>
+<p><strong>Основные методы:</strong></p>
+<h4 id="addbuttonstring-label-bufferedimage-sprite-runnable-onclick"><code>addButton(String label, BufferedImage sprite, Runnable onClick)</code></h4>
+<p>Добавляет кнопку в нижнюю часть окна с автоматическим позиционированием:</p>
+<pre><code class="lang-java"><span class="hljs-type">int</span> <span class="hljs-variable">buttonCount</span> <span class="hljs-operator">=</span> buttons.size();
+<span class="hljs-type">int</span> <span class="hljs-variable">totalButtonWidth</span> <span class="hljs-operator">=</span> (buttonCount + <span class="hljs-number">1</span>) * BUTTON_WIDTH + buttonCount * PADDING;
+<span class="hljs-type">int</span> <span class="hljs-variable">startX</span> <span class="hljs-operator">=</span> x + width - totalButtonWidth - PADDING;
+<span class="hljs-type">int</span> <span class="hljs-variable">buttonY</span> <span class="hljs-operator">=</span> y + height - BUTTON_HEIGHT - PADDING;
+<span class="hljs-type">int</span> <span class="hljs-variable">buttonX</span> <span class="hljs-operator">=</span> startX + buttonCount * (BUTTON_WIDTH + PADDING);
+</code></pre>
+<h4 id="drawgraphics2d-g2d"><code>draw(Graphics2D g2d)</code></h4>
+<p><strong>Отрисовывает:</strong></p>
+<ol>
+<li><p>Фон окна (спрайт или fallback цвет)</p>
+</li>
+<li><p>Заголовок</p>
+</li>
+<li><p>Крестик закрытия (спрайт или вручную нарисованный)</p>
+</li>
+<li><p>Все кнопки</p>
+</li>
+</ol>
+<h2 id="uibutton-кнопка-ui">UIButton (Кнопка UI)</h2>
+<p><strong>Файл:</strong> <code>ui/UIButton.java</code></p>
+<p>Интерактивная кнопка с hover-эффектом</p>
+<p><strong>Поля:</strong></p>
+<ul>
+<li><p><code>int x, y</code> - позиция</p>
+</li>
+<li><p><code>int width = 128, height = 32</code> - размеры</p>
+</li>
+<li><p><code>String label</code> - текст кнопки</p>
+</li>
+<li><p><code>BufferedImage sprite</code> - спрайт фона</p>
+</li>
+<li><p><code>boolean hovered</code> - состояние наведения</p>
+</li>
+<li><p><code>Runnable onClick</code> - обработчик клика</p>
+</li>
+</ul>
+<h4 id="метод-drawgraphics2d-g2d">Метод <code>draw(Graphics2D g2d)</code></h4>
+<p>Отрисовывает кнопку:</p>
+<ol>
+<li><p>Если есть спрайт - рисует его</p>
+</li>
+<li><p>Иначе - рисует цветной прямоугольник (синий, светлее при наведении)</p>
+</li>
+<li><p>Поверх - текст по центру</p>
+</li>
+</ol>
+<p><strong>Hover эффект:</strong></p>
+<pre><code class="lang-java">g2d.setColor(hovered ? <span class="hljs-keyword">new</span> <span class="hljs-title class_">Color</span>(<span class="hljs-number">100</span>, <span class="hljs-number">150</span>, <span class="hljs-number">255</span>) : <span class="hljs-keyword">new</span> <span class="hljs-title class_">Color</span>(<span class="hljs-number">70</span>, <span class="hljs-number">120</span>, <span class="hljs-number">200</span>));
+</code></pre>
+<h2 id="процесс-отрисовки-gamecontainer">Процесс отрисовки (GameContainer)</h2>
+<p><strong>Файл:</strong> <code>game/GameContainer.java</code></p>
+<p><strong>Метод</strong> <code>paintComponent(Graphics g)</code> реализует многослойную отрисовку:</p>
+<p><strong>Слои отрисовки</strong></p>
+<pre><code class="lang-java"><span class="hljs-meta">@Override</span>
+<span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">paintComponent</span><span class="hljs-params">(Graphics g)</span> {
+    <span class="hljs-built_in">super</span>.paintComponent(g);
+    <span class="hljs-type">Graphics2D</span> <span class="hljs-variable">g2d</span> <span class="hljs-operator">=</span> (Graphics2D) g;
+
+    <span class="hljs-comment">// 1. Рисуем игровое поле</span>
+    gamePanel.paintComponent(g2d);
+
+    <span class="hljs-comment">// 2. Если активно UI - рисуем оверлей</span>
+    <span class="hljs-keyword">if</span> (showScores || showVictory) {
+        <span class="hljs-comment">// Полупрозрачный черный фон</span>
+        g2d.setColor(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Color</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">150</span>));
+        g2d.fillRect(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, getWidth(), getHeight());
+
+        <span class="hljs-comment">// 3. Рисуем UI окна</span>
+        uiManager.drawAll(g2d);
+
+        <span class="hljs-comment">// 4. Рисуем таблицу рекордов</span>
+        drawScores(g2d);
+    }
+}
+</code></pre>
+<p><strong>Оптимизация рендеринга</strong></p>
+<p>Включено сглаживание:</p>
+<pre><code class="lang-java">g2d.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
+</code></pre>
+<h3 id="особенности-реализации">Особенности реализации</h3>
+<p>1. Отсутствие постоянного цикла отрисовки</p>
+<p>Игра перерисовывается только при событиях:</p>
+<ul>
+<li>Движение игрока</li>
+<li>Открытие/закрытие UI</li>
+<li>Наведение мыши на кнопки</li>
+</ul>
+<p>2. Fallback графика</p>
+<p>Если спрайт не загружен, рисуется цветная замена:</p>
+<ul>
+<li>Кнопки - синие прямоугольники</li>
+<li>Окна - серые прямоугольники</li>
+<li>Крестик - линии</li>
+</ul>
+<p>3. Масштабирование</p>
+<p>Все спрайты масштабируются до TILE_SIZE = 64px при отрисовке.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="game_flow.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Игровой цикл и архитектура потока">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Система рендеринга и UI","level":"1.4.4","depth":2,"next":{"title":"Игровой процесс","level":"1.5","depth":1,"ref":"","articles":[{"title":"Управление","level":"1.5.1","depth":2,"path":"controls.md","ref":"controls.md","articles":[]},{"title":"Правила игры","level":"1.5.2","depth":2,"path":"rules.md","ref":"rules.md","articles":[]},{"title":"Система рекордов","level":"1.5.3","depth":2,"path":"scoring.md","ref":"scoring.md","articles":[]}]},"previous":{"title":"Игровой цикл и архитектура потока","level":"1.4.3","depth":2,"path":"game_flow.md","ref":"game_flow.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"rendering.md","mtime":"2026-05-04T20:00:03.190Z","type":"markdown"},"gitbook":{"version":"6.1.6","time":"2026-05-04T20:51:11.153Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
